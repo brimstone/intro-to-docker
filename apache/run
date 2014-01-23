@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d -name="apache2" -p=8080:80 -v=/vagrant/apache/www:/var/www apache2
